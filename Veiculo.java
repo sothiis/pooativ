@@ -7,14 +7,17 @@ public class Veiculo {
     public String tipoCombustivel;
 
     public String getModelo() {
+        this.modelo = modelo;
         return modelo;
     }
 
     public String getMarca() {
+        this.marca = marca;
         return marca;
     }
 
     public int getAnofabricacao() {
+        this.anoFabricacao = anoFabricacao;
         return anoFabricacao;
     }
 
@@ -23,6 +26,7 @@ public class Veiculo {
     }
 
     public String getPlaca() {
+        this.placa = placa;
         return placa;
     }
 

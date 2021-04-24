@@ -2,10 +2,17 @@ import java.util.ArrayList;
 
 public class GerenciarVeiculos {
     
-    ArrayList<Veiculo> listaVeiculos = newArrayList<>();
+    private ArrayList<Veiculo> listaVeiculos;
+
+    
+    public GerenciarVeiculos(){
+        listaVeiculos = new ArrayList<>();
+    }
     
     public void adicionar(veiculo A) {
         // Adiciona o veículo ao ArrayList
+        add(Object);
+
     }
 
     public boolean remover(String placa) {
