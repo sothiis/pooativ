@@ -31,16 +31,14 @@ public class Veiculo {
     }
 
     public double calcularImposto() {
-        /* Carros com mais de 20 anos são isentos (ou seja, impostoé zero)
-        Carros movidos a gasolina, diesel e flex devem pagar4% do valor de mercado como imposto
-        Demais combustíveis: imposto é 3% do valor de mercado
-         */
+        // Carros com mais de 20 anos são isentos (ou seja, impostoé zero)
+        // Carros movidos a gasolina, diesel e flex devem pagar4% do valor de mercado como imposto
+        // Demais combustíveis: imposto é 3% do valor de mercado
+
     }
 
     public String imprimir() {
 
     }
 
-
-  
 }
