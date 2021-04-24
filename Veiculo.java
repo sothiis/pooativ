@@ -37,8 +37,13 @@ public class Veiculo {
 
     }
 
-    public String imprimir() {
-
+    static void imprimir(String modelo, String marca, int anoFabricacao, double valorMercado, String placa, String tipoCombustivel) {
+        System.out.println(modelo);
+        System.out.println(marca);
+        System.out.println(anoFabricacao);
+        System.out.println(valorMercado);
+        System.out.println(placa);
+        System.out.println(tipoCombustivel);
     }
 
 }

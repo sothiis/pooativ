@@ -48,7 +48,7 @@ public class AppVeiculos {
 
                     case 4:
                     //AQUI MOSTRA TODOS OS MODELOS DE CARRO QUE ESTÃO CADASTRADOS
-                    System.out.println(veiculos.imprimir()); 
+                    Veiculo.imprimir(modelo, marca, anoFabricacao, valorMercado, placa, tipoCombustivel);
                     
                     case 5:
                     //AQUI OBTEM O VALOR DE IMPOSTO
