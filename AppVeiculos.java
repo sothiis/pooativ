@@ -44,11 +44,12 @@ public class AppVeiculos {
                     break;
 
                     case 3:
+
                     // AQUI BUSCA POR PLACA DE CARRO
 
                     case 4:
                     //AQUI MOSTRA TODOS OS MODELOS DE CARRO QUE ESTÃO CADASTRADOS NO SISTEMA
-                    Veiculo.imprimir(modelo, marca, anoFabricacao, valorMercado, placa, tipoCombustivel);
+                    return "Veiculos " +  
                     
                     case 5:
                     //AQUI OBTEM O VALOR DE IMPOSTO
@@ -70,4 +71,4 @@ public class AppVeiculos {
          entrada.close();   
         }
 
-}}
+}

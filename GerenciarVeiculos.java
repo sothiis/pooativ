@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import javax.management.modelmbean.ModelMBeanOperationInfo;
+
 public class GerenciarVeiculos {
     
     private ArrayList<Veiculo> listaVeiculos;
@@ -18,6 +20,12 @@ public class GerenciarVeiculos {
     public boolean remover(String placa) {
         // Busca o veiculo que possui a placa dada, removendo-o e retornando true.
         // Caso não encontre a placa, retorna false.
+        for (Veiculo veiculo : listaVeiculos) {
+            if(veiculo.getModelo().equalsIgnoreCase(veiculo)){
+                listaVeiculos.remove(veiculo);
+                return true;
+            }
+        }
     }
 
     public Veiculo buscarPorPlaca(String Placa) {
@@ -27,6 +35,7 @@ public class GerenciarVeiculos {
     public String listarVeiculos() {
         // Lista todos os veículos da lista
         // Colocando os dados em uma String e depois retornando-a
+        return "Veiculos " + listaVeiculos;
     }
 
     public double obterValorImposto(String placa) {
