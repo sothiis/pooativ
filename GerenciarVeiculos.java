@@ -1,4 +1,9 @@
+import java.util.ArrayList;
+
 public class GerenciarVeiculos {
+    
+    ArrayList<Veiculo> listaVeiculos = newArrayList<>();
+    
     public void adicionar(veiculo A) {
         // Adiciona o veículo ao ArrayList
     }
