@@ -14,7 +14,7 @@ public class GerenciarVeiculos {
 
     public String listarVeiculos() {
         // Lista todos os veículos da lista
-        // Colocando os dados em uma String e depois retornando-aP
+        // Colocando os dados em uma String e depois retornando-a
     }
 
     public double obterValorImposto(String placa) {
