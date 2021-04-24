@@ -9,9 +9,9 @@ public class GerenciarVeiculos {
         listaVeiculos = new ArrayList<>();
     }
     
-    public void adicionar(veiculo A) {
+    public void adicionar(Veiculo) {
         // Adiciona o veículo ao ArrayList
-        add(Object);
+        listaVeiculos.add(new Veiculo(modelo, marca, anoFabricacao, valorMercado, placa, tipoCombustivel));
 
     }
 
