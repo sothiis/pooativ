@@ -47,7 +47,7 @@ public class AppVeiculos {
                     // AQUI BUSCA POR PLACA DE CARRO
 
                     case 4:
-                    //AQUI MOSTRA TODOS OS MODELOS DE CARRO QUE ESTÃO CADASTRADOS
+                    //AQUI MOSTRA TODOS OS MODELOS DE CARRO QUE ESTÃO CADASTRADOS NO SISTEMA
                     Veiculo.imprimir(modelo, marca, anoFabricacao, valorMercado, placa, tipoCombustivel);
                     
                     case 5:
