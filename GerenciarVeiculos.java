@@ -1,26 +1,31 @@
 public class GerenciarVeiculos {
-    public void adicionar (veiculo A) {
-
+    public void adicionar(veiculo A) {
+        // Adiciona o veículo ao ArrayList
     }
 
-    public boolean remover (String placa) {
-        return true;
-        //return false;
+    public boolean remover(String placa) {
+        // Busca o veiculo que possui a placa dada, removendo-o e retornando true.
+        // Caso não encontre a placa, retorna false
     }
 
-    public Veiculo buscarPorPlaca (String Placa) {
-        return null;
-    }
+    public Veiculo buscarPorPlaca(String Placa) {
+        // Busca o veiculo pela placa, retornando-o caso encontre.
+        // Se não encontrar retorna null
+
     public String listarVeiculos() {
-        //return String;
+        // Lista todos os veículos da lista
+        // Colocando os dados em uma String e depois retornando-a
     }
 
-    public double obterValorImposto(String placa){
+    public double obterValorImposto(String placa) {
+        // Busca um veículo pela placa passada, e então retorna o valor do imposto para
+        // esse veículo.
+        // Se nãoencontrar a placa, retorna -1;
 
     }
-
-    public String listarVeiculoPorCombustivel(String tipoCombuString){
-
+    public String listarVeiculoPorCombustivel(String tipoCombuString) {
+        // Lista todos os carros da quesejam movidos pelo combustível dado
+        // Colocando os dados em uma String e depois retornando-a
     }
-    
+
 }
