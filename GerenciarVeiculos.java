@@ -5,7 +5,7 @@ public class GerenciarVeiculos {
 
     public boolean remover(String placa) {
         // Busca o veiculo que possui a placa dada, removendo-o e retornando true.
-        // Caso não encontre a placa, retorna false
+        // Caso não encontre a placa, retorna false.
     }
 
     public Veiculo buscarPorPlaca(String Placa) {
@@ -14,7 +14,7 @@ public class GerenciarVeiculos {
 
     public String listarVeiculos() {
         // Lista todos os veículos da lista
-        // Colocando os dados em uma String e depois retornando-a
+        // Colocando os dados em uma String e depois retornando-aP
     }
 
     public double obterValorImposto(String placa) {
